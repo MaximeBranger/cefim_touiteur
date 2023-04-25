@@ -1,0 +1,66 @@
+{
+    "app": {
+        "title": "Touiteur"
+    },
+    "title": {
+        "register": "Register",
+        "influencers": "Most active users",
+        "keywords": "Most used words",
+        "reactions": "Add reaction",
+        "comments": "Comments",
+        "comment": "Add a comment",
+        "touit": "Add a touit",
+        "trending": "Most liked touits"
+    },
+    "btn": {
+        "connect": "Connect",
+        "register": "Register",
+        "send": "Send",
+        "react": "React"
+    },
+    "error": {
+        "unknown": "Une erreur inatendue est survenue.",
+        "error_desc": "L'erreur suivante est survenue : {{error}}",
+        "name": {
+            "too_short": "Username is too short",
+            "too_long": "Username is too long"
+        },
+        "password": {
+            "too_short": "Password is too short",
+            "confirmation": "Password is too long"
+        },
+        "message": {
+            "too_short": "Message is too short",
+            "too_long": "Message is too long"
+        },
+        "reaction": {
+            "unauthorized": "Symbol is not allowed"
+        }
+    },
+    "success": {
+        "touit": "Touit has been sent.",
+        "comment": "Comment has been sent."
+    },
+    "date": {
+        "for": "{{value}} {{unit}} ago",
+        "second": "second",
+        "seconds": "seconds",
+        "minute": "minute",
+        "minutes": "minutes",
+        "hour": "hour",
+        "hours": "hours",
+        "day": "day",
+        "days": "days",
+        "week": "week",
+        "weeks": "weeks",
+        "month": "month",
+        "months": "months",
+        "year": "year",
+        "years": "years"
+    },
+    "username": "Username",
+    "password": "Password",
+    "password_confirmation": "Confirm password",
+    "loading": "Loading...",
+    "message": "Message"
+}

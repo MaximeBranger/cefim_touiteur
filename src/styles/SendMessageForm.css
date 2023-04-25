@@ -1,0 +1,15 @@
+.newTouitForm {
+    display: flex;
+    flex-direction: column;
+    
+    width: 70rem;
+    margin: 3rem auto;
+    padding: 3rem;
+
+    background-color: var(--secondary-bg);
+}
+
+.username {
+    background-color: white;
+    padding-inline: .5rem;
+}

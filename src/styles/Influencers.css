@@ -1,0 +1,11 @@
+.influencers {
+    padding-block-end: 2rem;
+    margin-inline: 4rem;
+}
+
+.influencer {
+    color: var(--primary-font);
+    padding-inline: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}

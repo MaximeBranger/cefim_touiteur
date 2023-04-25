@@ -1,0 +1,21 @@
+.touitsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+}
+
+.touitsContainer .touit {
+    background-color: var(--primary-bg);
+    width: 50%;
+    min-width: 40rem;
+    max-width: 70rem;
+}
+
+.touitsContainer div:nth-child(even) {
+    /* margin-inline-start: calc(45% - 25rem); */
+}
+
+.touitsContainer div:nth-child(odd) {
+    /* margin-inline-start: calc(55% - 25rem); */
+}

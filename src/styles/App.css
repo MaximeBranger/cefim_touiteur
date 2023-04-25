@@ -1,0 +1,81 @@
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Nanum Gothic Coding';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/nanum-gothic-coding-v19-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/nanum-gothic-coding-v19-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Nanum Gothic Coding';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/nanum-gothic-coding-v19-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/nanum-gothic-coding-v19-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+.App {
+    padding: 1rem;
+    font-family: 'Nanum Gothic Coding', monospace;
+    position: relative;
+
+    min-height: 100vh;
+
+    --main-bg: #FFFFFF;
+    --modal-bg: #95818D;
+    --primary-bg: #E3C0D3;
+    --secondary-bg: #95818D;
+
+    
+    --main-font: #122932;
+    --modal-font: #FFFFFF;
+    --primary-font: #000000;
+    --secondary-font: #95818D;
+
+    color: var(--main-font);
+    background-color: var(--main-bg);
+}
+
+.App .actions {
+    display: flex;
+}
+
+.design_marie {
+    --main-bg: #F2C3A1;
+    --modal-bg: #ABAC23;
+    --primary-bg: #12CD44;
+    --secondary-bg: #362266;
+
+    
+    --main-font: #1258FF;
+    --modal-font: #DAFFAD;
+    --primary-font: #88CDA0;
+    --secondary-font: #FFC4C2;
+}
+
+.design_dorian {
+    --main-bg: #BBFF62;
+    --modal-bg: #95FF02;
+    --primary-bg: #E654C1;
+    --secondary-bg: #5FF6BA;
+
+    
+    --main-font: #ABCD36;
+    --modal-font: #DCAF55;
+    --primary-font: #3F2B58;
+    --secondary-font: #FFF663;
+}
+
+.design_vincent {
+    --main-bg: #FBC449;
+    --modal-bg: #AAA674;
+    --primary-bg: #674DCA;
+    --secondary-bg: #AEF914;
+
+    
+    --main-font: #BB4698;
+    --modal-font: #4FEC21;
+    --primary-font: #5B4AE6;
+    --secondary-font: #BCF414;
+}

@@ -1,0 +1,10 @@
+.keywords {
+    padding-block-end: 2rem;
+    margin-inline: 4rem;
+}
+
+.keyword {
+    color: var(--primary-font);
+    padding-inline: 1rem;
+    font-weight: 700;
+}

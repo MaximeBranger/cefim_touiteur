@@ -1,0 +1,75 @@
+.touit {
+    display: grid;
+    height: 100%;
+    grid-template-areas: 
+        "likes . date"
+        "message message message"
+        "reactions reactions reactions"
+        "name name comments"
+    ;
+
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-rows: 3rem auto auto 3rem;
+    padding: 1rem;
+}
+
+.message {
+    grid-area: message;
+    padding: 1rem 2rem;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.name {
+    grid-area: name;
+    display: flex;
+    gap: .4rem;
+}
+
+.name.logged {
+    text-decoration: underline;
+}
+
+.name svg {
+    width: 2rem;
+}
+
+.date {
+    grid-area: date;
+    justify-self: end;
+}
+
+.likes {
+    grid-area: likes;
+    display: flex;
+}
+
+.likes svg {
+    cursor: pointer;
+}
+
+.reactions {
+    grid-area: reactions;
+    justify-self: end;
+    padding: 1rem;
+}
+
+.comments {
+    grid-area: comments;
+    justify-self: end;
+}
+
+.comments svg {
+    width: 3rem;
+}
+
+.comments .reaction-button {
+    border: none;
+    background-color: transparent;
+    margin-inline-end: 3rem;
+}
+
+.comments .comment-button {
+    border: none;
+    background-color: transparent;
+}

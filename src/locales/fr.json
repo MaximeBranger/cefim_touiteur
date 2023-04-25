@@ -1,0 +1,66 @@
+{
+    "app": {
+        "title": "Touiteur"
+    },
+    "title": {
+        "register": "Inscription",
+        "influencers": "Utilisateurs les plus actifs",
+        "keywords": "Mots les plus utilisés",
+        "reactions": "Ajouter une réaction",
+        "comments": "Commentaires",
+        "comment": "Ajouter un commentaire",
+        "touit": "Ajouter un touit",
+        "trending": "Touits populaires"
+    },
+    "btn": {
+        "connect": "Se connecter",
+        "register": "S'inscrire",
+        "send": "Envoyer",
+        "react": "Réagir"
+    },
+    "error": {
+        "unknown": "Une erreur inatendue est survenue.",
+        "error_desc": "L'erreur suivante est survenue : {{error}}",
+        "name": {
+            "too_short": "Le nom d'utilisateur est trop court",
+            "too_long": "Le nom d'utilisateur est trop long"
+        },
+        "password": {
+            "too_short": "Le mot de passe est trop court",
+            "confirmation": "Les deux mots de passes ne sont pas identiques"
+        },
+        "message": {
+            "too_short": "Le message est trop court",
+            "too_long": "Le message est trop long"
+        },
+        "reaction": {
+            "unauthorized": "Le symbole n'est pas autorisé"
+        }
+    },
+    "success": {
+        "touit": "Le touit a été envoyé.",
+        "comment": "Le commentaire a été envoyé."
+    },
+    "date": {
+        "for": "Il y a {{value}} {{unit}}",
+        "second": "seconde",
+        "seconds": "secondes",
+        "minute": "minute",
+        "minutes": "minutes",
+        "hour": "heure",
+        "hours": "heures",
+        "day": "jour",
+        "days": "jours",
+        "week": "semaine",
+        "weeks": "semaines",
+        "month": "mois",
+        "months": "mois",
+        "year": "an",
+        "years": "ans"
+    },
+    "username": "Nom d'utilisateur",
+    "password": "Mot de passe",
+    "password_confirmation": "Confirmation du mot de passe",
+    "loading": "Chargement...",
+    "message": "Message"
+}

@@ -1,0 +1,16 @@
+.trending {
+    padding-block-end: 2rem;
+    margin-inline: 4rem;
+}
+
+@media (min-width: 768px) {
+    .trending-content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4rem;
+    }
+}
+
+.trending-content .touit {
+    background-color: var(--secondary-bg);
+}

@@ -1,0 +1,18 @@
+.flags {
+    position: absolute;
+    right: 5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.flags button {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flags svg {
+    height: 2rem;
+}
